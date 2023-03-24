@@ -1,0 +1,153 @@
+
+
+Tue Mar 21 17:11:00 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-67-generic (#74~20.04.1-Ubuntu SMP Wed Feb 22 14:52:34 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'LC_CTYPE=pt_BR.UTF-8;LC_NUMERIC=pt_BR.UTF-8;LC_TIME=pt_BR.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=pt_BR.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=pt_BR.UTF-8;LC_NAME=pt_BR.UTF-8;LC_ADDRESS=pt_BR.UTF-8;LC_TELEPHONE=pt_BR.UTF-8;LC_MEASUREMENT=pt_BR.UTF-8;LC_IDENTIFICATION=pt_BR.UTF-8'.
+
+
+Tue Mar 21 17:11:02 2023
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-67-generic (#74~20.04.1-Ubuntu SMP Wed Feb 22 14:52:34 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 32 GB / 30 GiB - CHS 3916 255 63, sector size=512 - VMware, VMware Virtual S, FW:1.0
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 58 MB / 55 MiB - 113832 sectors (RO), sector size=512
+Disk /dev/loop10 - 68 MB / 65 MiB - 133320 sectors (RO), sector size=512
+Disk /dev/loop11 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop12 - 197 MB / 188 MiB - 385728 sectors (RO), sector size=512
+Disk /dev/loop13 - 48 MB / 45 MiB - 94056 sectors (RO), sector size=512
+Disk /dev/loop14 - 52 MB / 49 MiB - 101624 sectors (RO), sector size=512
+Disk /dev/loop15 - 48 MB / 45 MiB - 94056 sectors (RO), sector size=512
+Disk /dev/loop16 - 50 MB / 47 MiB - 98280 sectors (RO), sector size=512
+Disk /dev/loop2 - 66 MB / 63 MiB - 129424 sectors (RO), sector size=512
+Disk /dev/loop3 - 58 MB / 55 MiB - 113888 sectors (RO), sector size=512
+Disk /dev/loop4 - 296 MB / 282 MiB - 578488 sectors (RO), sector size=512
+Disk /dev/loop5 - 229 MB / 219 MiB - 448512 sectors (RO), sector size=512
+Disk /dev/loop6 - 66 MB / 63 MiB - 129584 sectors (RO), sector size=512
+Disk /dev/loop7 - 229 MB / 219 MiB - 448512 sectors (RO), sector size=512
+Disk /dev/loop8 - 363 MB / 346 MiB - 709216 sectors (RO), sector size=512
+Disk /dev/loop9 - 363 MB / 346 MiB - 709280 sectors (RO), sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/sda - 32 GB / 30 GiB - VMware, VMware Virtual S
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=2
+BAD_RS LBA=2048 64512
+FAT32 at 0/32/33
+Info: size boot_sector 1048576, partition 1048576
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+set_FAT_info: name from BS used
+BAD_RS LBA=1052670 16450498
+BAD_RS LBA=1052672 16450498
+ 1 * FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+ 2 E extended                65 134  4  3916  63 51   61861890
+ 5 L Linux                   65 134  6  3916  31 19   61859840
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 31 GB / 29 GiB
+
+FAT: cluster=2(0x2), pos=4128
+Directory /
+FAT: cluster=2(0x2), pos=4128
+Directory /
+FAT: cluster=2(0x2), pos=4128
+Directory /
+
+
+dir_partition inode=2
+ 5 L Linux                   65 134  6  3916  31 19   61859840
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 31 GB / 29 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  4-Jan-2023 16:58 .
+       2 drwxr-xr-x     0      0      4096  4-Jan-2023 16:58 ..
+      11 drwx------     0      0     16384  3-Sep-2022 12:17 lost+found
+  131073 drwxr-xr-x     0      0      4096 14-Mar-2023 07:01 boot
+      12 -rw-------     0      0 968110080  3-Sep-2022 12:17 swapfile
+  262145 drwxr-xr-x     0      0     12288 21-Mar-2023 06:36 etc
+  393217 drwxr-xr-x     0      0      4096 19-Aug-2021 03:29 media
+      13 lrwxrwxrwx     0      0         7  3-Sep-2022 12:17 bin
+  786433 drwxr-xr-x     0      0      4096 19-Aug-2021 03:29 dev
+ 1048577 drwxr-xr-x     0      0      4096 13-Mar-2023 09:42 home
+      14 lrwxrwxrwx     0      0         7  3-Sep-2022 12:17 lib
+      15 lrwxrwxrwx     0      0         9  3-Sep-2022 12:17 lib32
+      16 lrwxrwxrwx     0      0         9  3-Sep-2022 12:17 lib64
+      17 lrwxrwxrwx     0      0        10  3-Sep-2022 12:17 libx32
+  917505 drwxr-xr-x     0      0      4096  3-Mar-2023 10:04 mnt
+  524289 drwxr-xr-x     0      0      4096 16-Jan-2023 15:35 opt
+  655361 drwxr-xr-x     0      0      4096 15-Apr-2020 04:09 proc
+  262147 drwx------     0      0      4096  3-Oct-2022 15:18 root
+  786434 drwxr-xr-x     0      0      4096  3-Sep-2022 12:23 run
+      18 lrwxrwxrwx     0      0         8  3-Sep-2022 12:17 sbin
+  524290 drwxr-xr-x     0      0      4096 31-Oct-2022 10:39 snap
+ 1048578 drwxr-xr-x     0      0      4096 19-Aug-2021 03:29 srv
+  655362 drwxr-xr-x     0      0      4096 15-Apr-2020 04:09 sys
+  917506 drwxrwxrwt     0      0      4096 21-Mar-2023 17:09 tmp
+  262148 drwxr-xr-x     0      0      4096 17-Oct-2022 18:54 usr
+  393220 drwxr-xr-x     0      0      4096 17-Oct-2022 18:54 var
+  802301 drwxrwxr-x     0      0      4096  3-Sep-2022 12:21 cdrom
+
+fat32_boot_sector
+ 1 * FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+FAT32 at 0/32/33
+Info: size boot_sector 1048576, partition 1048576
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+FAT32 at 0/32/33
+Info: size boot_sector 1048576, partition 1048576
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+Boot sector
+OK
+
+Backup boot sector
+OK
+
+First sectors (boot code and partition information) are not identical.
+Second sectors (cluster information) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+FAT: cluster=2(0x2), pos=4128
+Directory /
+SIGHUP detected! TestDisk has been killed.
